@@ -29,7 +29,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
 
   return (
     <div className={styles.container}>
-      <button onClick={handleClick}>New Cat</button>
+      <button onClick={handleClick}>One More Cat</button>
       {loading ? (
         <p className={styles.loadingText}>Loading...</p>
       ) : (
