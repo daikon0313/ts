@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column; /* 子要素を縦方向に並べる */
+    align-items: flex-start; /* 左寄せ */
+    margin: 20px; /* コンテナ全体に余白をつける */
+  }
+  
+  .catImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 10px; /* ボタンとの間に余白をつける */
+  }
+  
+  .loadingText {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
