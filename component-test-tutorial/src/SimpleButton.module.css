@@ -1,0 +1,6 @@
+.simpleButton {
+    font-size: 100px;       /* フォントサイズ */
+    padding: 20px 40px;    /* ボタン内の余白 */
+    border-radius: 10px;    /* 角を丸くする */
+    cursor: pointer;       /* カーソルをポインターに */
+}
