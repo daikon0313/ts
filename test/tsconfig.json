@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "esnext"
+    ],
+    // 他の設定...
+    "jsx": "react-jsx"
+  },
+  "include": ["memo.tsx"]
+}
